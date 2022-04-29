@@ -10,7 +10,8 @@ sudo tar -xvf  node-v16.14.2-linux-x64.tar.xz
 
 sudo cp -r node-v16.14.2-linux-x64/{bin,include,lib,share} /usr/
 
-rm -rf
+rm -rf node-v16.14.2-linux-x64.tar.xz
+
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 
 sudo dpkg -i teamviewer_amd64.deb
