@@ -3,11 +3,17 @@
 
 
   MOD TURBO! 
+  
+  Para Linux .deb você pode instalar conforme a baixo o cpufrequtils e configurar para usar modo alto desepenho em sua maquina.
+  
   sudo apt install cpufrequtils -y 
+  
   sudo apt install vim -y 
+  
   sudo vim /etc/default/cpufrequtils 
 
   coloca o texto 
+  
   GOVERNOR="performance" 
 
 Desative o serviço ondemand com o comando:
