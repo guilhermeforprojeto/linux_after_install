@@ -70,6 +70,9 @@ sudo apt install vlc vlc-l10n vlc-plugin-notify ubuntu-restricted-extras obs-stu
 
 sudo apt install filezilla usb-creator-gtk -y
 
+sudo apt install flameshot -y
+
 sudo apt install samba samba-vfs-modules -y
+
 
 neofetch
