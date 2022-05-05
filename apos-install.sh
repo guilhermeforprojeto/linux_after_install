@@ -2,6 +2,8 @@ sudo apt install samba -y
 
 sudo apt install neofetch -y
 
+sudo apt install remmina -y
+
 sudo apt install xz-utils wget -y
 
 wget https://nodejs.org/dist/v16.14.2/node-v16.14.2-linux-x64.tar.xz
@@ -62,7 +64,7 @@ sudo service ssh start
 
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
-sudo apt install skypeforlinux thunderbird-locale-pt-br telegram-desktop fonts-open-sans -y
+sudo apt install thunderbird-locale-pt-br telegram-desktop fonts-open-sans -y
 
 sudo apt install vlc vlc-l10n vlc-plugin-notify ubuntu-restricted-extras obs-studio -y
 
