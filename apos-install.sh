@@ -4,6 +4,8 @@ sudo apt install neofetch -y
 
 sudo apt install remmina -y
 
+sudo apt install flameshot -y
+
 sudo apt install xz-utils wget -y
 
 sudo apt install curl 
