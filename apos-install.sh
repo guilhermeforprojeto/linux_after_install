@@ -6,13 +6,12 @@ sudo apt install remmina -y
 
 sudo apt install xz-utils wget -y
 
-wget https://nodejs.org/dist/v16.14.2/node-v16.14.2-linux-x64.tar.xz
+sudo apt install curl 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.bashrc
+nvm install --lts 
+nvm install node 
 
-sudo tar -xvf  node-v16.14.2-linux-x64.tar.xz
-
-sudo cp -r node-v16.14.2-linux-x64/{bin,include,lib,share} /usr/
-
-rm -rf node-v16.14.2-linux-x64.tar.xz
 
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 
